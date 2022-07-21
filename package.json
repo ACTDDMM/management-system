@@ -1,0 +1,19 @@
+{
+  "name": "management-system",
+  "version": "1.0.0",
+  "description": "后台管理",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/Ed-zjh/management-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli": "^5.0.8"
+  }
+}

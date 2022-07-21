@@ -8,7 +8,7 @@
 
 软件架构说明
 vue/cli vue2.0 elementui
-联系 demo
+练习 demo
 
 #### 安装教程
 

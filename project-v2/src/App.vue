@@ -1,9 +1,13 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
-<style lang="scss">
+<script>
+import "./assets/css/reset.css";
+export default {};
+</script>
 
+<style lang="scss">
 </style>

@@ -17,7 +17,6 @@ export default {
   },
   created() {
     this.name = getToken("username");
-    console.log(this.name);
   },
 };
 </script>

@@ -15,8 +15,20 @@ import "font-awesome/css/font-awesome.min.css";
 // Vue.use(VueAxios, axios);
 import service from "../service";
 
+import * as echarts from 'echarts'
 Vue.prototype.service = service;
+Vue.prototype.$echarts = echarts
+
 Vue.config.productionTip = false;
+// 路由导航守卫
+router.beforeEach((to,form,next)=>{
+  if(!localStorage.getItem('username')){
+    if(to.path !== '/login'){
+      next('/login')
+    }else next()
+  }next()
+})
+
 
 new Vue({
   router,

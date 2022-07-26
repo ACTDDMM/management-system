@@ -36,7 +36,6 @@ export default {
   menus: [],
   methods: {},
   created() {
-    console.log(this.$router.options.routes);
     this.menus = [...this.$router.options.routes];
   },
 };

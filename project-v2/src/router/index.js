@@ -7,6 +7,7 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
+    name:"首页",
     redirect: "/login",
     hidden: true,
     component: () => import("@/views/MyLogin.vue"),
